@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>註冊</title>
+</head>
+
+<body>
+
+<form action="register1.php" method="post" name="form1" id="form1">
+<p>
+  <label for="textfield">ID:</label>
+  <input name="ID" type="text" autofocus required id="ID" size="10" maxlength="8">
+</p>
+<p>
+  <label for="password">密碼:</label>
+  <input name="password" type="text" autofocus required id="pwd" size="10" maxlength="8">
+</p>
+<p>
+  <label for="textfield">姓名:</label>
+  <input name="name" type="text" autofocus required id="name" size="20" maxlength="8">
+</p>
+<p>
+  <p>
+    <label for="textfield">聯繫方式:</label>
+    <input name="contact" type="text" autofocus required id="contact" size="20" maxlength="15">
+  </p>
+<p>
+  <p>
+    <label for="textfield">機構:</label>
+    <select name="unit">
+      <option value="公司" selected="True">公司</option>
+      <option value="學校">學校</option>
+   </select><br/>
+<p>
+  <p>
+    <label for="textfield">地址:</label>
+    <input name="address" type="text" autofocus required id="address" size="20" maxlength="8">
+  </p>
+<p>
+  <input type="reset" name="reset" id="reset" value="重設">
+  <input type="submit" name="submit" id="submit" value="註冊">
+</p>
+</form>
+</body>
+</html>
